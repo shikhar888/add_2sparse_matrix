@@ -81,7 +81,7 @@ int main()
 	    {
 		    for(j=0;j<m2;j++)
 		    {
-			    if(d[i][j]!=0 && l2<cnt) 
+			    if(d[i][j]!=0 && l2<cnt2) 
 			    {
 			        k2=0;
 			        c[l2][k2]=i+1;
@@ -91,7 +91,7 @@ int main()
 			    }
 		    }
 	    }
-        cout<<"sparse matrix 1 is:\n";
+        cout<<"sparse matrix 2 is:\n";
 	    for(i=0;i<cnt2;i++)
 	    {
 		    for(j=0;j<3;j++)
